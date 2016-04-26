@@ -10,7 +10,7 @@
         <nav class="main-navigation">
         <ul>
             <li>
-              <a href="#">Информация</a>
+              <a href="index.html">Информация</a>
             </li>
             <li>
               <a href="#">Фото и видео</a>
@@ -19,33 +19,34 @@
               <a href="#">Карта штата</a>
             </li>
             <li>
-              <a href="#">Гостиницы</a>
+              <a href="catalog.html">Гостиницы</a>
             </li>
             <li>
               <a href="#">Контакты</a>
             </li>
             </ul>
         </nav>
-            <div class="index-logo">
-            <img src="http://placehold.it/40x30" width="40" height="30" alt="Седона">
-                <a href="#">Логотип Седоны</a>
-            </div>
+        <div class="logo">
+          <a href="index.html">
+              <img src="http://placehold.it/40x30" width="40" height="30" alt="Седона">
+          </a>
+        </div>
     </header>
     <form action="#" method="get">
         <div class="infrastructure">
-        <h2>Инфраструкрура:</h2>
-              <input type="checkbox" name="swimming" checked>Бассейн
-              <input type="checkbox" name="parking">Парковка
-              <input type="checkbox" name="wifi">Wi-fi
+        <h2>Инфраструктура:</h2>
+              <label>Бассейн<input type="checkbox" name="swimming" checked></label>
+              <label>Парковка<input type="checkbox" name="parking"></label>
+              <label>Wi-fi<input type="checkbox" name="wifi"></label>
         </div>
         <div class="accomodation">
             <h2>Тип жилья:</h2>
-              <input type="checkbox" name="hotel" checked>Гостиница
-              <input type="checkbox" name="motel" checked>Мотель
-              <input type="checkbox" name="appartment" checked>Апартаменты
+            <label>Гостиница<input type="checkbox" name="hotel" checked></label>
+            <label>Мотель<input type="checkbox" name="motel" checked></label>
+            <label>Апартаменты<input type="checkbox" name="appartment" checked></label>
         </div>
         <div class="price">
-        <h2>Стоимость в сутки (Р)</h2>
+        <h2>Стоимость в сутки (Р):</h2>
             <label>От <input type="text" name="price-min" value="0"></label>
             <label>До <input type="text" name="price-max" value="3000"></label>
             <input type="range">
@@ -53,39 +54,38 @@
         </div>
     </form>
     <section class="search-results">
-        <div>
-            <h1>Найдено: 3 </h1>
+        <div class="search-results">
+            <span>Найдено: 3</span>
         </div>
-        <div>
+        <div class="sort">
             <span>Сортировка</span>
               <ul>
-                  <li>По цене</li>
-                  <li>По типу</li>
-                  <li>По рейтингу</li>
+                  <li><a href="#"><i>По цене</i></a></li>
+                <li><a href="#"><i>По типу</i></a></li>
+                  <li><a href="#"><i>По рейтингу</i></a></li>
               </ul>
         </div>
-        <div>???</div>
     </section>
-    <section class="hotel">
-    <article class="hotel-amara">
+    <section class="hotels">
+    <article class="hotel-item">
          <div class="hotel-image">
         <img src="http://placehold.it/40x30" width="40" height="30" alt="Амара">
         </div>
         <div class="hotel-summary">
-            <h1><a href="#">AMARA RESORT AND SPA</a></h1>
+            <h1><a href="#">AMARA RESORT &#38; SPA</a></h1>
             <div class="hotel-details">
                 <span>Гостиница</span>
-                <button class="details" type="submit">Подробнее</button>
+                <a href="#" class="details" type="submit"Подробнее</a>
                <div> <span>От 3500 р.</span>
-                <button class="book" type="submit">Забронировать</button>
+                <a href="#" class="book" type="submit">Забронировать</a>
                </div>
             </div>
              <div class="hotel-rating">
-                <span>РЕЙТИНГ:8,5</span>
+                <span>РЕЙТИНГ: 8,5</span>
             </div>
         </div>
         </article>
-      <article class="hotel-desert">
+      <article class="hotel-item">
         <div class="hotel-image">
         <img src="http://placehold.it/40x30" width="40" height="30" alt="Пустыня">
         </div>
@@ -93,41 +93,41 @@
             <h1><a href="#">DESERT QUAIL INN</a></h1>
             <div class="hotel-details">
                 <span>Мотель</span>
-                <button class="details" type="submit">Подробнее</button>>
+                <a href="#" class="details" type="submit">Подробнее</a>
                 </div>
                <div> <span>От 2000 р.</span>
-                <button class="book" type="submit">Забронировать</button>
+                <a href="#" class="book" type="submit">Забронировать</a>
                </div>
         </div>
            <div class="hotel-rating">
-                <span>РЕЙТИНГ:8,9</span>
+                <span>РЕЙТИНГ: 8,9</span>
             </div>
         </article>
-          
-          <article class="hotel-villa">
+
+          <article class="hotel-item">
         <div class="hotel-image">
         <img src="http://placehold.it/40x30" width="40" height="30" alt="Вилла">
         </div>
         <div class="hotel-summary">
-            <h1><a href="#">VILLAS AT POCO DIABLO</a>            БР1ЮБФ РКУА=Э№ЭЮМШДДФЫ ФЕ ЗЩСЩ ВШФИДЩБ.ФЮБ.Р1Ю
+            <h1><a href="#">VILLAS AT POCO DIABLO</a>
 </h1>
             <div class="hotel-details">
                 <span>Апартаменты</span>
-                <button class="details" type="submit">Подробнее</button>>
+                <a href="#" class="details" type="submit">Подробнее</a>
                 </div>
                <div> <span>От 4000 р.</span>
-                <button class="book" type="submit">Забронировать</button>
+                <a href="#" class="book" type="submit">Забронировать</a>
                </div>
         </div>
            <div class="hotel-rating">
-                <span>РЕЙТИНГ:9,2</span>
+                <span>РЕЙТИНГ: 9,2</span>
             </div>
         </article>
     </section>
-    
+
     <footer class="main-footer">
     <div class="footer-hashtag">
-        <h2>#visitsedona</h2>
+          <a href="#>"<h2>#visitsedona</h2></a>
         </div>
     <div class="footer-social">
          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
@@ -135,11 +135,9 @@
           <a class="social-btn social-btn-you" href="#">Ютуб</a>
         </div>
     <div class="footer-copyright">
-        <span>Website by</span>
-         <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+      <a href="htmlacademy.ru"><span>Website by</span></a>
+         <a class="copyright" href="https://htmlacademy.ru">HTML Academy</a>
         </div>
     </footer>
-    
-    
 </div>
     </body>
