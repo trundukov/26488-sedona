@@ -1,9 +1,10 @@
 body {
   font-family: PT Sans;
-  font-size: 14px;
+  font-size: 0px;
   line-height: normal;
   color: #000000;
   font-weight: normal;
+  outline: 1px solid #666;
 }
 h1 {
     font-size: 21px;
@@ -16,5 +17,108 @@ h2 {
     color: #000000;
 }
 .main-item {
-  background-image: url(../img/background.jpg):
+  background-image: url(../img/background.jpg);
+  display: inline-block;
+  outline: 1px solid #666;
+}
+
+.navigation-item {
+  width: 240px;
+  display: inline-block;
+}
+.photo{
+  margin-right: 240px;
+}
+
+.welcome-image{
+padding-left: 371px;
+padding-right: 371px;
+padding-top: 78px;
+}
+header {
+  font-size: 14px;
+  display: inline-block;
+  width:1200px;
+  vertical-align: top;
+  box-sizing: border-box;
+  outline: 1px solid #666;
+}
+.container {
+  width:1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+.intro {
+  font-size: 14px;
+  width: 1200px;
+  display: inline-block;
+  outline: 1px solid #666;
+}
+.reasons {
+  font-size: 14px;
+  display: inline-block;
+  width:1200px;
+  outline: 1px solid #666;
+}
+.reasons-blue {
+  background-color: #81b3d2;
+  font-size: 14px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.reasons-gray {
+  background-color: #eeeeee;
+  font-size: 14px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.experiences {
+  font-size: 14px;
+  display: inline-block;
+  width:1200px;
+  vertical-align: top;
+  box-sizing: border-box;
+  outline: 1px solid #666;
+}
+.experience-item {
+  display: inline-block;
+  width:397px;
+  vertical-align: left;
+  box-sizing: border-box;
+}
+.reason-item {
+  display: inline-block;
+  width:397px;
+  box-sizing: border-box;
+  outline: 1px solid #666;
+}
+.reasons-blue .reason-image {
+  font-size: 14px;
+  vertical-align: right;
+  display: inline-block;
+  box-sizing: border-box;
+  width:800px;
+}
+.interest {
+  font-size: 14px;
+  display: inline-block;
+  width:1200px;
+  vertical-align: top;
+  box-sizing: border-box;
+  outline: 1px solid #666;
+}
+.footer-item {
+  width: 360px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.main-footer {
+  font-size: 14px;
+  display: inline-block;
+  width:1200px;
+  vertical-align: top;
+  box-sizing: border-box;
+  outline: 1px solid #666;
 }
