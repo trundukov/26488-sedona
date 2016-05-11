@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Каталог</title>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -38,29 +39,35 @@
         <div class="infrastructure">
           <h2>Инфраструктура:</h2>
           <label>
-            <input type="checkbox" name="swimming" checked>Бассейн
+            <input type="checkbox" name="swimming" checked>
+            <span class="icon-check-on"></span>Бассейн
             <br>
           </label>
           <label>
-            <input type="checkbox" name="parking">Парковка
+            <input type="checkbox" name="parking">
+            <span class="icon-check-off"></span> Парковка
             <br>
           </label>
           <label>
-            <input type="checkbox" name="wifi">Wi-fi
+            <input type="checkbox" name="wifi">
+            <span class="icon-check-off"></span>Wi-fi
           </label>
         </div>
         <div class="accomodation">
           <h2>Тип жилья:</h2>
           <label>
-            <input type="checkbox" name="hotel" checked>Гостиница
+            <input type="checkbox" name="hotel" checked>
+            <span class="icon-check-on"></span>Гостиница
             <br>
           </label>
           <label>
-            <input type="checkbox" name="motel" checked>Мотель
+            <input type="checkbox" name="motel" checked>
+            <span class="icon-check-on"></span>Мотель
             <br>
           </label>
           <label>
-            <input type="checkbox" name="appartment" checked>Апартаменты
+            <input type="checkbox" name="appartment" checked>
+            <span class="icon-check-on"></span>Апартаменты
           </label>
         </div>
         <div class="filter-range">
@@ -81,6 +88,7 @@
             <div class="range-toggle range-toggle-max"></div>
           </div>
           <button class="btn-transparent" type="submit">Показать</button>
+        </div>
       </form>
     </section>
     <section class="search-sort">
@@ -94,6 +102,10 @@
           <li class="sort-item"><a href="#"><i>По типу</i></a></li>
           <li class="sort-item"><a href="#"><i>По рейтингу</i></a></li>
         </ul>
+      </div>
+      <div class="dir-icons">
+        <span class="icon-up-dir"></span>
+        <span class="icon-down-dir"></span>
       </div>
     </section>
     <section class="hotels">
@@ -112,6 +124,11 @@
           </div>
         </div>
         <div class="hotel-rating">
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <br>
           <span>РЕЙТИНГ: 8,5</span>
         </div>
 
@@ -131,9 +148,11 @@
           </div>
         </div>
         <div class="hotel-rating">
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <br>
           <span>РЕЙТИНГ: 8,9</span>
         </div>
-
       </article>
 
       <article class="hotel-item">
@@ -152,25 +171,28 @@
           </div>
         </div>
         <div class="hotel-rating">
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <br>
           <span>РЕЙТИНГ: 9,2</span>
         </div>
       </article>
     </section>
-
-    <<footer class="main-footer">
+    <footer class="main-footer">
       <div class="footer-item hashtag">
         <a href="#">#visitsedona</a>
       </div>
       <div class="footer-item social">
-        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-        <a class="social-btn social-btn-you" href="#">Ютуб</a>
+        <a class="social-btn icon-twitter" href="#"></a>
+        <a class="social-btn icon-facebook" href="#"></a>
+        <a class="social-btn icon-youtube" href="#"></a>
       </div>
       <div class="footer-item copyright">
         <a class="copyright" href="https://htmlacademy.ru">Website by HTML Academy</a>
       </div>
-      </footer>
-      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
