@@ -344,10 +344,12 @@ header {
 .icon-up-dir::before {
   content: "\25b2";
   color: #d1d1d1;
+  font-size: 18px;
 }
 .icon-down-dir::before {
   content: "\25bc";
   color: #d1d1d1;
+  font-size: 18px;
 }
 .icon-up-dir:hover::before {
   color: #000000;
@@ -680,6 +682,7 @@ label {
   vertical-align: top;
   display: inline-block;
   box-sizing: border-box;
+  color: #000000;
 }
 .hotel-summary h1 a {
   margin: 0 0;
