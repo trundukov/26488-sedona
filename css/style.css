@@ -1,7 +1,6 @@
 body {
   color: #000000;
   background-color: #f2f2f2;
-  outline: 1px solid #666;
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -321,7 +320,6 @@ header {
   margin-top: -72px;
   background: rgba(255, 255, 255, 0.9);
 }
-
 [class^="icon-"]::before, [class*=" icon-"]::before {
   display: inline-block;
   width: 1em;
@@ -449,7 +447,8 @@ label {
   color: #ffffff;
 }
 .infrastructure {
-  width: 25%;;
+  width: 25%;
+  ;
   vertical-align: top;
   text-transform: uppercase;
   display: inline-block;
