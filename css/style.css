@@ -293,7 +293,7 @@ header {
 }
 .copyright a:hover:after {
   background: url(../img/sprites.png);
-  background-position: -1px -100px;
+  background-position: 0px -100px;
   width: 113px;
   height: 39px;
 }
@@ -344,12 +344,12 @@ header {
 .icon-up-dir::before {
   content: "\25b2";
   color: #d1d1d1;
-  font-size: 18px;
+  font-size: 20px;
 }
 .icon-down-dir::before {
   content: "\25bc";
   color: #d1d1d1;
-  font-size: 18px;
+  font-size: 20px;
 }
 .icon-up-dir:hover::before {
   color: #000000;
@@ -646,8 +646,7 @@ label {
   display: inline-block;
   box-sizing: border-box;
   vertical-align: bottom;
-  ;
-  font-size: 14px;
+  font-size: 12px;
 }
 .sort-item a {
   text-decoration: none;
@@ -663,6 +662,8 @@ label {
   color: #000000;
 }
 .hotel-item {
+  border-top: 1px solid #e5e5e5;
+  border-bottom:1px solid #e5e5e5;
   padding-left: 72px;
   padding-right: 72px;
   padding-top: 32px;
