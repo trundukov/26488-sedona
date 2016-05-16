@@ -379,6 +379,7 @@ header {
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.5);
 }
+
 .search-form input {
   display: inline-block;
   box-sizing: border-box;
@@ -490,7 +491,20 @@ header {
   line-height: 1em;
   speak: none;
 }
-button {
+.adults button {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 26px;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  padding: 0;
+  margin: 0px;
+  background-color: #f2f2f2;
+}
+.children button {
   display: inline-block;
   box-sizing: border-box;
   vertical-align: top;
@@ -686,6 +700,7 @@ label {
 .hotels h1 {
   margin: 0px;
 }
+
 .filter-range {
   display: inline-block;
   box-sizing: border-box;
