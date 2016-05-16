@@ -345,7 +345,9 @@ header {
   background-color: #ffffff;
 }
 .search-form label {
-  padding-left: 0;
+  display: inline-block;
+  padding: 0;
+
 }
 .search-form span {
   display: inline-block;
@@ -360,7 +362,7 @@ header {
 .search-button {
   display: inline-block;
   box-sizing: border-box;
-  margin-top: 65px;
+  margin-top: 55px;
   font-size: 21px;
   color: #ffffff;
   line-height: 26px;
@@ -399,6 +401,7 @@ header {
 .check-in {
   display: inline-block;
   box-sizing: border-box;
+  vertical-align: middle;
   height: 26px;
   text-align: left;
   margin-bottom: 40px;
@@ -414,6 +417,7 @@ header {
 .check-out {
   display: inline-block;
   box-sizing: border-box;
+    vertical-align: middle;
   height: 26px;
   text-align: left;
   margin-bottom: 40px;
@@ -430,7 +434,7 @@ header {
   box-sizing: border-box;
   vertical-align: top;
   font-size: 0px;
-  height: 36px;
+  height: 38px;
 }
 .adults input {
   display: inline-block;
@@ -439,7 +443,8 @@ header {
   text-align: center;
   padding-left: 3px;
   padding-right: 3px;
-  width: 20px;
+  width: 44px;
+  height: 36px;
 }
 .adults span {
   display: inline-block;
@@ -451,6 +456,7 @@ header {
   display: inline-block;
   box-sizing: border-box;
   font-size: 0px;
+  padding-right: 15px;
   vertical-align: top;
   height: 36px;
 }
@@ -465,7 +471,8 @@ header {
   box-sizing: border-box;
   vertical-align: top;
   text-align: center;
-  padding-left: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
   width: 20px;
 }
 [class^="icon-"]::before, [class*=" icon-"]::before {
