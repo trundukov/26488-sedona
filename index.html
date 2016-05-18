@@ -6,7 +6,7 @@
   <title>HTML Academy: Седона</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -116,25 +116,26 @@
       <form class="search-form" action="#" method="get">
         <div class="check-in">
           <label for="check-in"><span>Дата заезда:</span>
-            <input class="check-in-date" id="check-in" type="text" name="date" value="24.04.2016"><a href="#"><span class="icon-calendar"></span></a>
+            <input class="check-in-date" id="check-in" type="text" name="date" value="24.04.2016">
+            <a href="#"><i class="icon-calendar"></i></a>
           </label>
         </div>
         <div class="check-out">
           <label for="checkout"><span>Дата выезда:</span>
-            <input class="check-out-date" id="checkout " type="text" name="date" value="04.06.2016">
-            <a href="#"><span class="icon-calendar"></span></a>
+            <input class="check-out-date" id="checkout" type="text" name="date" value="04.06.2016">
+            <a href="#"><i class="icon-calendar"></i></a>
           </label>
         </div>
         <div class="adults">
-          <label for="adults"><span>Взрослые:</span>
-            <button class="icon-minus"></button>
-            <input id="adults" type="text" name="quantity" value="2">
-          </label><button class="icon-plus"></button></div>
+          <label for="adults"><span>Взрослые:</span></label>
+          <button class="icon-minus"></button>
+          <input id="adults" type="text" name="quantity" value="2">
+          <button class="icon-plus"></button>
+        </div>
         <div class="children">
-          <label for="children"><span>Дети:</span>
-            <button class="icon-minus"></button>
-            <input id="children" type="text" name="quantity" value="0">
-          </label>
+          <label for="children"><span>Дети:</span></label>
+          <button class="icon-minus"></button>
+          <input id="children" type="text" name="quantity" value="0">
           <button class="icon-plus"></button>
         </div>
         <button class="search-button" type="submit">Найти</button>
@@ -156,6 +157,8 @@
     </footer>
 
   </div>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
